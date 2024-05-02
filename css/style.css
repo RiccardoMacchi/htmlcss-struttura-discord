@@ -2,6 +2,7 @@
 
 *{
     box-sizing: border-box;
+    margin: 0;
 }
 
 a {
@@ -25,8 +26,8 @@ header {
 
     background-color: #add8e6;
     min-height: 100px;
-
-
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 #logo{
@@ -34,7 +35,7 @@ header {
     background-color: #daa520;
     width: 20%;
     border: 2px dashed black;
-    height: 70px;
+    min-height: 70px;
 }
 
 #login{
@@ -43,7 +44,7 @@ header {
     background-color: #daa520;
     width: 20%;
     border: 2px dashed black;
-    height: 70px;
+    min-height: 70px;
 }
 
 div#menu{
@@ -52,12 +53,12 @@ div#menu{
     background-color: #daa520;
     width: 40%;
     border: 2px dashed black;
-    height: 70px;
+    min-height: 70px;
 
 }
 
 /* Regole Menu Lista */
-li {
+ul#menurow li {
     display: inline;
 }
 
@@ -65,7 +66,8 @@ li {
 /* Regole Header Intro */
 #intro{
     min-height: 450px;
-    padding: 75px;
+    padding-top: 65px;
+    padding-bottom: 65px;
 }
 
 #header-intro {
@@ -91,7 +93,8 @@ li {
 }
 
 .divbody {
-    padding: 75px;
+    padding-top: 65px;
+    padding-bottom: 65px;
     display: flex;
     justify-content: center;
     margin: auto;
@@ -132,6 +135,61 @@ li {
 }
 
 #sectionfine {
-    padding: 75px;
+    padding-top: 65px;
+    padding-bottom: 65px;
     background-color: #d3d3d3;
 }
+
+
+/* Regole footer */
+
+#sectioninfo {
+    padding-top: 15px;
+    padding-bottom: 35px;
+    display: flex;
+    justify-content: center;
+
+    /* Debug */
+    background-color: #23272a;
+}
+
+#divsocial {
+    width: 20%;
+    
+    /* Debug */
+    min-height: 400px;
+    background-color: #f08080;
+}
+
+.infolist {
+    width: 10%;
+
+    /* Debug */
+    min-height: 400px;
+    background-color: #20b2aa;
+    border: 1px solid black;
+}
+
+/* Regole fine footer */
+
+#sectionend {
+    display: flex;
+    justify-content: center;
+    margin-top: 2px;
+    min-height: 150px;
+    background-color: #23272a;
+}
+
+#divend {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+
+    /* Debug */
+    background-color: #7fffd4;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
