@@ -1,28 +1,71 @@
+/* Regole Generali */
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+
 /* Regole Header */
+header {
+    /* Debug */
+    background-color: #00008b;
+}
+
 /* Regole Menu */
 #header-menu {
     display: flex;
     justify-content: center;
+    align-items: center;
+
+
+    background-color: #add8e6;
+    min-height: 100px;
+
 
 }
 
 #logo{
+    /* Debug */
     background-color: #daa520;
     width: 20%;
+    border: 2px dashed black;
+    height: 70px;
 }
 
 #login{
+    /* Debug */
     background-color: #daa520;
     width: 20%;
+    border: 2px dashed black;
+    height: 70px;
 }
 
 div#menu{
+    text-align: center;
+    /* Debug */
     background-color: #daa520;
     width: 40%;
-    text-align: center;
+    border: 2px dashed black;
+    height: 70px;
+
 }
 
 /* Regole Menu Lista */
 li {
     display: inline;
+}
+
+
+/* Regole Header Intro */
+
+#header-intro {
+    text-align: center;
+    margin: auto;
+    width: 60%;
+
+    /* Debug */
+    background-color: #ee82ee;
+    min-height: 350px;
 }
