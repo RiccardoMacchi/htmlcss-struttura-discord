@@ -1,0 +1,28 @@
+/* Regole Header */
+/* Regole Menu */
+#header-menu {
+    display: flex;
+    justify-content: center;
+
+}
+
+#logo{
+    background-color: #daa520;
+    width: 20%;
+}
+
+#login{
+    background-color: #daa520;
+    width: 20%;
+}
+
+div#menu{
+    background-color: #daa520;
+    width: 40%;
+    text-align: center;
+}
+
+/* Regole Menu Lista */
+li {
+    display: inline;
+}
