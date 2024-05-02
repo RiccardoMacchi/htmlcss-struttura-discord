@@ -35,6 +35,7 @@ header {
 }
 
 #login{
+    text-align: end;
     /* Debug */
     background-color: #daa520;
     width: 20%;
@@ -59,13 +60,52 @@ li {
 
 
 /* Regole Header Intro */
+#intro{
+    min-height: 450px;
+    padding: 100px;
+}
 
 #header-intro {
     text-align: center;
     margin: auto;
     width: 60%;
-
+    
     /* Debug */
     background-color: #ee82ee;
     min-height: 350px;
+}
+
+/* Regole Main */
+
+/* Prima Sezione */
+
+.sectionodd {
+    background-color: rgb(255, 255, 255);
+}
+
+.sectioneven{
+    background-color: #d3d3d3;
+}
+
+.divbody {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.elsx {
+    width: 35%;
+    /* Debug */
+    background-color: #1e90ff;
+    min-height: 500px;
+}
+
+
+.eldx {
+    width: 25%;
+    /* Debug */
+    background-color: #ffc0cb;
+    min-height: 500px;
 }
