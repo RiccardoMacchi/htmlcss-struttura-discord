@@ -3,6 +3,7 @@
 *{
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
 }
 
 a {
@@ -15,6 +16,13 @@ a {
 header {
     /* Debug */
     background-color: #00008b;
+}
+
+
+/* Regole Bottoni */
+button {
+    border-radius: 30px;
+    padding: 8px;
 }
 
 /* Regole Menu */
@@ -47,7 +55,7 @@ header {
     min-height: 70px;
 }
 
-div#menu{
+nav#menu{
     text-align: center;
     /* Debug */
     background-color: #daa520;
@@ -73,7 +81,7 @@ ul#menurow li {
 #header-intro {
     text-align: center;
     margin: auto;
-    width: 60%;
+    width: 50%;
     
     /* Debug */
     background-color: #ee82ee;
